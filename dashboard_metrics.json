@@ -1,0 +1,23 @@
+{
+  "accuracy": 0.6363636363636364,
+  "macro_f1": 0.6239316239316239,
+  "macro_precision": 0.6339285714285714,
+  "macro_recall": 0.625,
+  "eligible_records": 66,
+  "label_distribution": {
+    "Oppose": 36,
+    "Support": 30
+  },
+  "target_distribution": {
+    "BJP": 41,
+    "INC": 21,
+    "AAP": 3,
+    "Trinamool Congress": 1
+  },
+  "limitations": [
+    "Only 66 provisionally labelled stance records were evaluated.",
+    "Metrics use repeated cross-validation, not an independent test set.",
+    "Model predictions do not establish annotation correctness.",
+    "Transformer-based modelling has not been verified as implemented."
+  ]
+}

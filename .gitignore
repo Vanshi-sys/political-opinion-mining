@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+
+# Notebooks and operating-system files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Private datasets and review records
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.jsonl
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# Credentials
+credentials.json
+secrets.json
